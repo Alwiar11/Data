@@ -1,0 +1,50 @@
+body {
+  background-color: silver;
+  background-image: url("https://img.icons8.com/external-nawicon-glyph-nawicon/2000/000000/external-school-back-to-school-nawicon-glyph-nawicon.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  text-decoration: none;
+  margin-top: 190px;
+}
+.siswa {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 190px;
+  float: left;
+  margin: 20px;
+  height: 160px;
+  border-radius: 10px 10px 50% 50%;
+}
+.ortu {
+  background-color: #555555;
+  padding: 20px;
+  width: 190px;
+  float: left;
+  margin: 20px;
+  height: 180px;
+  border-radius: 10px 10px 50% 50%;
+}
+.icon {
+  width: 100px;
+}
+.header {
+  color: #000000;
+  text-align: center;
+  padding-top: 40px;
+}
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.hover :hover {
+  cursor: pointer;
+  background-color: #00a064;
+  border-radius: 50%;
+  transition: 0.3s;
+}

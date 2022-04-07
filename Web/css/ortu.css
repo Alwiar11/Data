@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+.table {
+  width: 100%;
+  display: flexbox;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: silver;
+  font-family: "Roboto", sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.header_fixed {
+  max-height: 100vh;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #dddddd;
+}
+
+.header_fixed thead th {
+  position: sticky;
+  top: 0;
+  background-color: #000000;
+  color: #e6e7e8;
+  font-size: 15px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #dddddd;
+  padding: 10px 67px;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #edeef1;
+}
+
+tr:hover td {
+  color: #44b478;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+td button {
+  border: none;
+  padding: 7px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: #e6e7e8;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+.con {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.con2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none;
+}
+button:hover {
+  background-color: #44b478;
+  transition: 0.3s;
+  transform: scale(1.2, 1.2);
+}
+
+button {
+  border: none;
+  padding: 13px 17px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #000000;
+}
+input {
+  background-color: #000000;
+  opacity: 90%;
+  border-radius: 10px;
+  height: 20px;
+  color: #ffffff;
+}
+
+tbody {
+  margin-left: 15px;
+}
